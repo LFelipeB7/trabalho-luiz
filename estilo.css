@@ -1,0 +1,95 @@
+/* Estilização básica */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d6e5ff;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+img {
+  margin-left: auto;
+}
+
+#imgf {
+  margin-left: 20%;
+}
+
+#imgG {
+  margin-left: 10%;
+}
+
+
+#pbi {
+  margin-left: 15%;
+}
+
+#imgbd {
+  margin-left:  20% ;
+}
+
+#imgcodbd {
+  margin-left: 20%;
+}
+p {
+  text-align: center;
+}
+/* Estilo do formulário */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+
+form input,
+form textarea {
+  padding: 8px;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+form button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
